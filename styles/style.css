@@ -96,9 +96,7 @@
     margin-top: 20px;
 }
 
-.letter-spacing-extended {
-    letter-spacing: 60px;
-}
+
 
 .no-letter-spacing {
     letter-spacing: 0;
@@ -119,6 +117,7 @@
     font-weight: 400;
     text-transform: uppercase;
     word-spacing: 18px;
+    align-items: start;
 }
 
 .bet-button {
@@ -132,7 +131,7 @@
 }
 
 .lots {
-    padding: 180px 50px;
+    padding: 180px 24px 0px 24px;
 }
 
 .lots__heading {
@@ -152,8 +151,8 @@
 
 .lots__card-list-item {
     flex-grow: 1;
-    width: 430px;
-    min-height: 450px;
+    width: 334px;
+    min-height: 569px;
 }
 
 .card-link {
@@ -216,7 +215,7 @@
     display: grid;
     grid-template-columns: 430px 1fr;
     gap: 25px;
-    padding: 0 50px 180px;
+    padding: 120px 24px 180px 24px;
 }
 
 .about__logo {
