@@ -5,9 +5,9 @@
 }
 
 body {
-  width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background-color: white;
 }
 
 h1,
@@ -29,6 +29,11 @@ a {
   color: inherit;
 }
 
+.logo {
+  width: 150px;
+  height: auto;
+}
+
 img {
   width: 100%;
 }
@@ -36,3 +41,5 @@ img {
 button {
   font: inherit;
 }
+
+
