@@ -112,10 +112,6 @@
     flex-direction: column;
 }
 
-.letter-spacing-extended {
-    letter-spacing: 60px;
-}
-
 .aligned-text_center {
     display: flex;
     justify-content: center;
